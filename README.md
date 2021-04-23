@@ -1,8 +1,7 @@
-# Article name here
+# What does CDK Synth do in AWS CDK
 
 A repository for an article on
-[bobbyhadz.com](https://bobbyhadz.com/blog/aws-s3-presigned-url-react)
-`<- Update Link`
+[bobbyhadz.com](https://bobbyhadz.com/blog/what-does-cdk-synth-do)
 
 ## How to Use
 
@@ -14,17 +13,10 @@ A repository for an article on
 npm install
 ```
 
-3. Create the CDK stack
+3. Synth `prod` and `dev` stacks
 
 ```bash
-npx cdk deploy
-```
-
-4. Open the AWS CloudFormation Console and the stack should be created in your
-   default region
-
-5. Cleanup
-
-```bash
-npx cdk destroy
+npx cdk synth \
+  my-cdk-stack-dev \
+  my-cdk-stack-prod
 ```
