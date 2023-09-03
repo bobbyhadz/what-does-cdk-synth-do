@@ -1,7 +1,7 @@
 # What does CDK Synth do in AWS CDK
 
 A repository for an article on
-[bobbyhadz.com](https://bobbyhadz.com/blog/what-does-cdk-synth-do)
+[bobbyhadz.com](https://bobbyhadz.com/blog/what-aws-cdk-bootstrap-do)
 
 > If you use CDK v1, switch to the cdk-v1 branch
 
